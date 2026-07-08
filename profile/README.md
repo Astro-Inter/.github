@@ -8,6 +8,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-em%20desenvolvimento-blue?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/versão-0.1.0-informational?style=for-the-badge" alt="Versão">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
@@ -18,8 +19,6 @@
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain">
   <img src="https://img.shields.io/badge/LangGraph-4CAF50?style=for-the-badge" alt="LangGraph">
   <img src="https://img.shields.io/badge/LangSmith-0A0A0A?style=for-the-badge&logo=langchain&logoColor=white" alt="LangSmith">
@@ -37,11 +36,9 @@
   <a href="#-sobre">Sobre</a> •
   <a href="#-o-problema">Problema</a> •
   <a href="#-a-solução">Solução</a> •
-  <a href="#-funcionalidades">Funcionalidades</a> •
-  <a href="#-arquitetura">Arquitetura</a> •
   <a href="#-tecnologias">Tecnologias</a> •
-  <a href="#-como-executar">Como Executar</a> •
-  <a href="#-equipe">Equipe</a>
+  <a href="#-equipe">Equipe</a> •
+  <a href="#-padrões-de-git">Padrões de Git</a>
 </p>
 
 ---
@@ -78,35 +75,6 @@ A plataforma permite acompanhar treinamentos, certificados, pendências e atuali
 
 ---
 
-## Funcionalidades
-
-<table>
-  <thead>
-    <tr>
-      <th>Funcionalidade</th>
-      <th>Descrição</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-  </tbody>
-</table>
-
----
-
-## Interface
-
-<p align="center">
-  <img src="docs/images/screen-login.png" width="45%" alt="Login">
-  <img src="docs/images/screen-dashboard.png" width="45%" alt="Dashboard">
-</p>
-<p align="center">
-  <img src="docs/images/screen-treinamentos.png" width="45%" alt="Treinamentos">
-  <img src="docs/images/screen-ia.png" width="45%" alt="IA ASTRO">
-</p>
-
----
-
 ## Tecnologias
 
 <table>
@@ -131,7 +99,7 @@ A plataforma permite acompanhar treinamentos, certificados, pendências e atuali
     <tr>
       <td>Banco de Dados</td>
       <td>PostgreSQL · MongoDB · Redis · Neo4j</td>
-      <td>Persistência e cache de dados</td>
+      <td>Persistência, cache e grafos de relacionamento</td>
     </tr>
     <tr>
       <td>Inteligência Artificial</td>
@@ -201,6 +169,98 @@ A plataforma permite acompanhar treinamentos, certificados, pendências e atuali
     </tr>
   </tbody>
 </table>
+
+---
+
+## Padrões de Git
+
+> Qualquer registro derivado de git deve estar em `kebab-case` e na língua **portuguesa**.
+
+### Branches
+
+Toda implementação deve ser iniciada a partir de uma branch da `main`, seguindo o padrão:
+
+```
+<tipo>/<JIRA>-<descricao>
+```
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Uso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>feat</code></td>
+      <td>Nova funcionalidade</td>
+    </tr>
+    <tr>
+      <td><code>fix</code></td>
+      <td>Correção de bug</td>
+    </tr>
+    <tr>
+      <td><code>docs</code></td>
+      <td>Alteração de documentação</td>
+    </tr>
+  </tbody>
+</table>
+
+**Exemplo:**
+```
+feat/KNBN-0001-fluxo-esqueceu-senha
+```
+
+---
+
+### Commits
+
+Os commits seguem o padrão de [Conventional Commits](https://www.conventionalcommits.org/pt-br/).
+
+**Formato:**
+```
+<tipo>(<JIRA>): <descrição>
+```
+
+**Exemplo:**
+```
+feat(KNBN-0123): criar tela de importação
+```
+
+**Boas práticas:**
+- Faça commits pequenos e objetivos
+- Utilize sempre o card do Jira relacionado à tarefa
+
+---
+
+### Pull Request
+
+**Título:**
+```
+[KNBN-0123] feat: importacao-de-funcionarios
+```
+
+**Template de descrição:**
+
+```markdown
+## Descrição
+// Descrição breve do que foi feito
+
+## Jira
+// Link do card do Jira
+
+## O que foi alterado
+- ...
+- ...
+- ...
+
+## Tipo da alteração
+- [ ] Feature
+- [ ] Bug Fix
+- [ ] Refactor
+- [ ] Documentação
+```
 
 ---
 

@@ -1,4 +1,4 @@
-<-- O título da PR deve seguir o seguinte padrão: [<JIRA>] <tipo>: descrição -->
+<!-- O título da PR deve seguir o seguinte padrão: [<JIRA>] <tipo>: descrição -->
 
 ## Descrição
 

@@ -174,7 +174,7 @@ A plataforma permite acompanhar treinamentos, certificados, pendências e atuali
 
 ## Padrões de Git
 
-> Qualquer registro derivado de git deve estar em `kebab-case` e na língua **portuguesa**.
+Escreva as descrições em **português**. Use `kebab-case` na descrição da branch; mensagens de commit e títulos de PR devem ser frases legíveis. Consulte o [guia completo de desenvolvimento](../README.md).
 
 ### Branches
 
@@ -238,7 +238,7 @@ feat(KNBN-0123): criar tela de importação
 
 **Título:**
 ```
-[KNBN-0123] feat: importacao-de-funcionarios
+[KNBN-0123] feat: Importação de funcionários
 ```
 
 **Template de descrição:**

@@ -45,7 +45,7 @@ O projeto combina diferentes tecnologias conforme a necessidade de cada componen
 
 ## Equipe
 
-<table width="100%">
+<table align="center">
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/Lipe-to"><img src="https://github.com/Lipe-to.png?size=128" width="72" height="72" alt="Avatar de Felipe Battalhini Boregio"><br><strong>Felipe Battalhini Boregio</strong></a><br>

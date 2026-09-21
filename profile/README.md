@@ -3,36 +3,58 @@
 </p>
 
 <p align="center">
-  <a href="#o-astro">O ASTRO</a> ·
-  <a href="#o-que-estamos-construindo">A plataforma</a> ·
+  <a href="#por-que-o-astro">O ASTRO</a> ·
+  <a href="#o-que-estamos-construindo">Plataforma</a> ·
+  <a href="#conheça-o-sath">Mascote</a> ·
   <a href="#tecnologias">Tecnologias</a> ·
   <a href="#equipe">Equipe</a> ·
   <a href="https://github.com/Astro-Inter/.github/blob/main/README.md">Guia de desenvolvimento</a>
 </p>
 
-## O ASTRO
+<p align="center">
+  <strong>Conformidade em órbita.</strong><br>
+  NRs, treinamentos, certificados e pendências em uma experiência simples para equipes de RH e SST.
+</p>
 
-O **ASTRO** é uma plataforma em desenvolvimento para apoiar empresas na gestão das **Normas Regulamentadoras (NRs)** e das rotinas de **Saúde e Segurança do Trabalho (SST)**. A proposta é reunir informações sobre exigências, treinamentos, certificados e pendências em um lugar acessível às equipes de RH e SST.
+<p align="center">
+  <img src="assets/orbita-animada.svg" width="100%" alt="Linha orbital animada nas cores do ASTRO.">
+</p>
 
-## O desafio
+## Por que o ASTRO
 
-Quando essas informações ficam espalhadas por planilhas e documentos, é mais difícil acompanhar prazos, identificar pendências e manter uma visão atualizada das obrigações. O ASTRO nasce para tornar esse acompanhamento mais claro e reduzir o trabalho manual.
+Informações de conformidade costumam ficar espalhadas por planilhas, documentos e sistemas diferentes. Isso dificulta acompanhar prazos, identificar pendências e manter uma visão confiável das obrigações.
+
+O **ASTRO** nasce para reunir esse contexto em um único lugar. A plataforma está sendo construída para transformar rotinas complexas de **Saúde e Segurança do Trabalho** em jornadas mais claras, visuais e fáceis de acompanhar.
 
 ## O que estamos construindo
 
-| Frente | Objetivo |
+| Frente | Como o ASTRO ajuda |
 | --- | --- |
-| NRs | Ajudar a identificar e acompanhar exigências aplicáveis. |
-| Treinamentos | Organizar capacitações obrigatórias e reciclagens. |
-| Certificados | Reunir registros e acompanhar prazos de validade. |
-| Pendências | Mostrar o que precisa de atenção e acompanhamento. |
-| Apoio inteligente | Facilitar consultas e análises das informações com IA. |
+| **NRs** | Organiza as exigências aplicáveis e facilita seu acompanhamento. |
+| **Treinamentos** | Reúne capacitações obrigatórias, reciclagens e seus prazos. |
+| **Certificados** | Centraliza registros e acompanha períodos de validade. |
+| **Pendências** | Destaca o que precisa de atenção para orientar a próxima ação. |
+| **Apoio inteligente** | Facilita consultas e análises das informações com IA. |
 
-A plataforma oferece apoio à organização e à análise. A avaliação das obrigações legais permanece sob responsabilidade dos profissionais da área.
+> O ASTRO apoia a organização e a análise das informações. A avaliação das obrigações legais continua sob responsabilidade dos profissionais da área.
+
+## Conheça o SATH
+
+<table>
+  <tr>
+    <td width="42%" align="center">
+      <img src="assets/mascote-astro.png" width="330" alt="SATH, o robô mascote do ASTRO, com painéis violetas e um planeta azul no peito.">
+    </td>
+    <td width="58%">
+      <h3>Seu copiloto na jornada de conformidade</h3>
+      <p>O <strong>SATH</strong> traduz a personalidade do ASTRO: tecnologia próxima, orientação clara e curiosidade para explorar informações complexas.</p>
+    </td>
+  </tr>
+</table>
 
 ## Tecnologias
 
-O projeto combina diferentes tecnologias conforme a necessidade de cada componente. As instruções de instalação e as decisões de arquitetura ficam nos repositórios correspondentes.
+O projeto combina diferentes tecnologias conforme a necessidade de cada componente. As instruções de instalação e as decisões de arquitetura ficam em seus respectivos repositórios.
 
 | Área | Tecnologias utilizadas |
 | --- | --- |
@@ -80,7 +102,7 @@ O projeto combina diferentes tecnologias conforme a necessidade de cada componen
 
 ## Desenvolvimento
 
-O [guia de desenvolvimento](https://github.com/Astro-Inter/.github/blob/main/README.md) reúne a organização do trabalho no Jira, os padrões de Git e os modelos usados nas entregas. Para instalar ou contribuir em um componente, consulte também o README do repositório correspondente.
+Quer contribuir? O [guia de desenvolvimento](https://github.com/Astro-Inter/.github/blob/main/README.md) reúne a organização do trabalho no Jira, os padrões de Git e os modelos usados nas entregas. Para instalar ou contribuir em um componente, consulte também o README do repositório correspondente.
 
 ## Licença
 

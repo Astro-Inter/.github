@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92" role="img" aria-labelledby="title desc">
+  <title id="title">Órbita animada do ASTRO</title>
+  <desc id="desc">Uma linha orbital azul e violeta com estrelas que pulsam e um ponto luminoso em movimento.</desc>
+  <defs>
+    <linearGradient id="orbit" x1="0" x2="1">
+      <stop offset="0" stop-color="#1D8CFF" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#1D8CFF"/>
+      <stop offset=".55" stop-color="#6937FF"/>
+      <stop offset=".8" stop-color="#D42CF4"/>
+      <stop offset="1" stop-color="#D42CF4" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".2" stop-color="#76C8FF"/>
+      <stop offset="1" stop-color="#6937FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <path id="track" d="M35 51 C250 2 402 7 600 46 C798 85 950 90 1165 41"/>
+  </defs>
+
+  <use href="#track" fill="none" stroke="url(#orbit)" stroke-width="2" opacity=".72"/>
+  <use href="#track" fill="none" stroke="url(#orbit)" stroke-width="9" opacity=".12" filter="url(#blur)"/>
+
+  <g>
+    <circle r="15" fill="url(#glow)" filter="url(#blur)"/>
+    <circle r="4" fill="#FFFFFF"/>
+    <animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#track"/>
+    </animateMotion>
+  </g>
+
+  <g transform="translate(260 17)">
+    <path d="M0 -7 C1 -2 2 -1 7 0 C2 1 1 2 0 7 C-1 2 -2 1 -7 0 C-2 -1 -1 -2 0 -7Z" fill="#78C9FF">
+      <animate attributeName="opacity" values=".25;1;.25" dur="3.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g transform="translate(944 73)">
+    <path d="M0 -7 C1 -2 2 -1 7 0 C2 1 1 2 0 7 C-1 2 -2 1 -7 0 C-2 -1 -1 -2 0 -7Z" fill="#E28BFF">
+      <animate attributeName="opacity" values=".25;1;.25" dur="3.8s" begin="1.1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

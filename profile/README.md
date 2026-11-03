@@ -112,10 +112,6 @@ O projeto combina diferentes tecnologias conforme a necessidade de cada componen
   </tr>
 </table>
 
-## Documentação do produto
-
-A base [astro-knowledge](https://github.com/Astro-Inter/astro-knowledge) reúne as regras e os fluxos funcionais do ASTRO. Comece pela [visão geral e princípios](https://github.com/Astro-Inter/astro-knowledge/blob/main/docs/astro/produto/visao-geral.md) e pelo [índice das anotações funcionais](https://github.com/Astro-Inter/astro-knowledge/blob/main/docs/astro/README.md) para explorar os módulos e as decisões ainda pendentes.
-
 ## Desenvolvimento
 
 Quer contribuir? O [guia de desenvolvimento](https://github.com/Astro-Inter/.github/blob/main/README.md) reúne a organização do trabalho no Jira, os padrões de Git e os modelos usados nas entregas. Para instalar ou contribuir em um componente, consulte também o README do repositório correspondente.

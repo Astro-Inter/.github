@@ -5,7 +5,7 @@
 <p align="center">
   <a href="#por-que-o-astro">O ASTRO</a> ·
   <a href="#o-que-estamos-construindo">Plataforma</a> ·
-  <a href="#conheça-o-sath">Mascote</a> ·
+  <a href="#conheça-o-astrinho">Mascote</a> ·
   <a href="#tecnologias">Tecnologias</a> ·
   <a href="#equipe">Equipe</a> ·
   <a href="https://github.com/Astro-Inter/.github/blob/main/README.md">Guia de desenvolvimento</a>
@@ -13,7 +13,7 @@
 
 <p align="center">
   <strong>Conformidade em órbita.</strong><br>
-  NRs, treinamentos, certificados e pendências em uma experiência simples para equipes de RH e SST.
+  Gestão de NRs, conformidades e rotinas de SST para RH, Gestores e Colaboradores.
 </p>
 
 <p align="center">
@@ -24,30 +24,42 @@
 
 Informações de conformidade costumam ficar espalhadas por planilhas, documentos e sistemas diferentes. Isso dificulta acompanhar prazos, identificar pendências e manter uma visão confiável das obrigações.
 
-O **ASTRO** nasce para reunir esse contexto em um único lugar. A plataforma está sendo construída para transformar rotinas complexas de **Saúde e Segurança do Trabalho** em jornadas mais claras, visuais e fáceis de acompanhar.
+O **ASTRO** é uma plataforma SaaS em desenvolvimento para centralizar a gestão de conformidade com **Normas Regulamentadoras (NRs)** e os processos operacionais de **Segurança e Saúde no Trabalho (SST)**. O objetivo é reduzir o trabalho manual de RH, profissionais de SST e Gestores, reunindo a estrutura da empresa, as obrigações dos Colaboradores, as atividades e os registros em um único ambiente.
+
+Cada empresa organiza seu **Workspace**, com Colaboradores, Cargos, Unidades e permissões de acesso. Os Cargos definem as obrigações individuais de NR; as Unidades dão contexto às inspeções e verificações operacionais.
 
 ## O que estamos construindo
 
 | Frente | Como o ASTRO ajuda |
 | --- | --- |
-| **NRs** | Organiza as exigências aplicáveis e facilita seu acompanhamento. |
-| **Treinamentos** | Reúne capacitações obrigatórias, reciclagens e seus prazos. |
-| **Certificados** | Centraliza registros e acompanha períodos de validade. |
-| **Pendências** | Destaca o que precisa de atenção para orientar a próxima ação. |
-| **Apoio inteligente** | Facilita consultas e análises das informações com IA. |
+| **Empresa e Colaboradores** | Organiza o Workspace, os Cargos, as Unidades, os cadastros e os papéis de acesso. |
+| **NRs e Conformidades** | Acompanha obrigações por Cargo, validades, situação atual e histórico de cada Colaborador. |
+| **Eventos e evidências** | Reúne treinamentos, cursos e reciclagens em Turmas, com participantes, conclusões, validação e evidências. |
+| **Registros e certificados** | Centraliza registros de conclusão e validade, com lançamento manual ou importação por planilha. |
+| **Formulários e inspeções** | Apoia checklists e verificações por Unidade, com respostas de Gestores pelo Mobile e registro de localização. |
+| **Comunicação e acompanhamento** | Prevê Chat entre Gestores e Colaboradores, alertas, Notificações e indicadores de conformidade e operação. |
+| **Apoio com IA** | Auxilia na análise de NRs e em cálculos; o chatbot permite consultar Conformidades e pendências dentro das permissões de cada pessoa. |
 
-> O ASTRO apoia a organização e a análise das informações. A avaliação das obrigações legais continua sob responsabilidade dos profissionais da área.
+### Web e Mobile
 
-## Conheça o SATH
+- **Web para Gestores:** configuração do Workspace, gestão de Colaboradores, Cargos, Unidades, NRs e Conformidades, criação de Eventos e Formulários e acompanhamento por indicadores.
+- **Mobile para Colaboradores:** consulta de Eventos, NRs e Conformidades, envio de evidências e conclusão de atividades quando permitido, além de Chat e chatbot.
+- **Mobile para Gestores:** funções de Colaborador e recursos adicionais, como validar conclusões dos Eventos que criou, consultar a equipe e responder Formulários de inspeção.
+
+> O escopo acima segue o [memorial funcional reunido no astro-knowledge](https://github.com/Astro-Inter/astro-knowledge/blob/main/docs/astro/README.md). Ele descreve o produto planejado; a disponibilidade de cada funcionalidade depende da evolução das aplicações.
+
+O ASTRO organiza, acompanha, calcula, registra e sugere. A responsabilidade legal permanece com a empresa e os profissionais habilitados. O chatbot consulta apenas informações autorizadas e não altera dados nem valida conclusões.
+
+## Conheça o Astrinho
 
 <table>
   <tr>
     <td width="42%" align="center">
-      <img src="assets/mascote-astro.png" width="330" alt="SATH, o robô mascote do ASTRO, com painéis violetas e um planeta azul no peito.">
+      <img src="assets/mascote-astro.png" width="330" alt="Astrinho, o robô mascote do ASTRO, com painéis violetas e um planeta azul no peito.">
     </td>
     <td width="58%">
       <h3>Seu copiloto na jornada de conformidade</h3>
-      <p>O <strong>SATH</strong> traduz a personalidade do ASTRO: tecnologia próxima, orientação clara e curiosidade para explorar informações complexas.</p>
+      <p>O <strong>Astrinho</strong> traduz a personalidade do ASTRO: tecnologia próxima, orientação clara e curiosidade para explorar informações complexas.</p>
     </td>
   </tr>
 </table>
@@ -71,7 +83,7 @@ O projeto combina diferentes tecnologias conforme a necessidade de cada componen
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/Lipe-to"><img src="https://github.com/Lipe-to.png?size=128" width="72" height="72" alt="Avatar de Felipe Battalhini Boregio"><br><strong>Felipe Battalhini Boregio</strong></a><br>
-      <sub>Back-end · @Lipe-to</sub>
+      <sub>Mobile · @Lipe-to</sub>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/rosamaduda"><img src="https://github.com/rosamaduda.png?size=128" width="72" height="72" alt="Avatar de Maria Eduarda Araujo Gonçalves Rosa"><br><strong>Maria Eduarda Araujo Gonçalves Rosa</strong></a><br>

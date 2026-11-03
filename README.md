@@ -8,7 +8,9 @@
   Convenções compartilhadas para transformar cada card em uma entrega clara, rastreável e fácil de revisar.
 </p>
 
-Este repositório reúne as convenções de trabalho do **ASTRO**, plataforma de apoio à gestão de conformidade com Normas Regulamentadoras (NRs), treinamentos e certificados de Saúde e Segurança do Trabalho (SST).
+Este repositório reúne as convenções de trabalho do **ASTRO**, plataforma SaaS em desenvolvimento para gestão de conformidade com Normas Regulamentadoras (NRs) e processos de Segurança e Saúde no Trabalho (SST).
+
+O produto busca reduzir o trabalho manual de RH, profissionais de SST e Gestores, centralizando a estrutura da empresa, os Colaboradores, as obrigações por Cargo, as Conformidades, os Eventos e as evidências. A experiência combina gestão pela Web e acompanhamento e operação pelo Mobile, incluindo Formulários e inspeções.
 
 O guia ajuda a equipe a manter o trabalho ligado ao Jira, organizar o histórico Git e dar contexto suficiente para revisão. O [perfil da organização](profile/README.md) apresenta o produto, a equipe e as tecnologias. As instruções técnicas de instalação e execução pertencem aos repositórios de cada aplicação.
 
@@ -16,6 +18,7 @@ O guia ajuda a equipe a manter o trabalho ligado ao Jira, organizar o histórico
 
 | Para... | Consulte |
 | --- | --- |
+| Consultar o escopo, as regras e os fluxos do produto | [Base funcional no astro-knowledge](https://github.com/Astro-Inter/astro-knowledge/blob/main/docs/astro/README.md) |
 | Entender o produto e os princípios da equipe | [Introdução](docs/introducao.md) |
 | Nomear branches, commits e Pull Requests | [Padrões Git](docs/padroes-git.md) |
 | Organizar cards, escopo e acompanhamento | [Organização do projeto](docs/organizacao-projeto.md) |
@@ -46,12 +49,12 @@ Cada entrega deve responder, sem ambiguidade: **por que a mudança existe, o que
 <table>
   <tr>
     <td width="76%">
-      <h3>SATH acompanha a tripulação</h3>
+      <h3>Astrinho acompanha a tripulação</h3>
       <p>Nosso mascote representa uma tecnologia próxima e clara. Ele também lembra que documentação, validação e colaboração fazem parte da mesma missão.</p>
       <p><a href="profile/README.md"><strong>Conheça o ASTRO e a equipe →</strong></a></p>
     </td>
     <td width="24%" align="center">
-      <img src="profile/assets/mascote-astro.png" width="180" alt="SATH, mascote robô do ASTRO.">
+      <img src="profile/assets/mascote-astro.png" width="180" alt="Astrinho, mascote robô do ASTRO.">
     </td>
   </tr>
 </table>
